@@ -103,7 +103,7 @@ Perfect for:
 1. **Clone this repository:**
 
 ```bash
-git clone https://github.com/yourusername/study_tracker.git
+git clone https://github.com/Emmanuella-Adams/study_tracker.git
 ```
 
 2. **Navigate to the project folder:**
@@ -140,6 +140,7 @@ Feel free to fork and expand it!
 ## 📜 License
 
 MIT License — free to use, modify, and distribute.
+
 
 
 
