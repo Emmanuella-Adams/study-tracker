@@ -1,7 +1,4 @@
-Below is a **clean, internship-ready README.md** for your project.
-You can copy it directly into your GitHub repository.
 
----
 
 # 📘 Study Tracker — Python CLI Project
 
@@ -144,13 +141,5 @@ Feel free to fork and expand it!
 
 MIT License — free to use, modify, and distribute.
 
----
 
-If you want, I can also generate:
 
-* **a project logo**,
-* **a GitHub description**,
-* **badges (Python version, status, etc.)**,
-* or **the complete starter code**.
-
-Just tell me.
