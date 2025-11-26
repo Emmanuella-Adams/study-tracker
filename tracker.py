@@ -106,3 +106,43 @@ def add_study_session():
     save_logs(logs)
 
     print('new session successfully updated')
+
+
+    
+def main_menu():
+        hey = """
+    Displays the main menu and handles user input to navigate the application.
+    """
+while True:
+        print("\n" + "="*30)
+        print("🔷 Study & Habit Tracker Menu")
+        print("="*30)
+        print("1. Add a study session")
+        print("2. View summary")
+        print("3. Generate weekly report")
+        print("4. Exit")
+        print("="*30)
+        
+        choice = input("Enter your choice (1-4): ").strip()
+        
+        if choice == '1':
+            add_study_session()  # Already implemented
+        elif choice == '2':
+            # This function will be implemented in the next phase
+            print("\n🚨 Feature Coming Soon: View Summary") 
+            # view_summary() 
+        elif choice == '3':
+            # This function will be implemented in a later phase
+            print("\n🚨 Feature Coming Soon: Generate Report") 
+            # generate_weekly_report()
+        elif choice == '4':
+            print("\n👋 Thank you for using the Study Tracker. Goodbye!")
+            break
+        else:
+            print("❌ Invalid choice. Please enter a number between 1 and 4.")
+
+
+if __name__ == "__main__":
+    # Ensure this is the only call that executes the main logic
+    # when the script is run directly.
+    main_menu()
